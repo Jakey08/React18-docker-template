@@ -20,11 +20,11 @@ services:
     volumes:
       - ./app:/code
       - node_modules_volume:/app/node_modules
-    # npmを使って起動する
+    # npm start
     command: sh -c "npm start"
     ports:
       - "8080:8080"
-    # ホットリロードを有効化
+    # enable hot reload
     environment:
       - CHOKIDAR_USEPOLLING=true
 volumes:
