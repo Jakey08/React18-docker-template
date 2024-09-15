@@ -1,5 +1,5 @@
 # React18-docker-template
-This is Docker settings of React18
+This is the template of React18 on Docker.
 
 ## First step
 
